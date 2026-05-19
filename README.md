@@ -1,1 +1,2 @@
 # BeatsPod
+This is a pocket-sized open-source digital music player based on an ESP32 microcontroller. The project uses the dual-core ability of the chip to split the workup: one core is decoding the MP3 and FLAC files through software, the other core is reading music from a MicroSD card and dealing with the physical navigation buttons. The audio signal is converted to digital via I2S to a PCM5102A DAC chip for clean sound output, and it’s all controlled via a custom user interface displayed on a 2.4-inch ST7789 TFT screen over an SPI connection.
